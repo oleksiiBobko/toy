@@ -37,4 +37,6 @@ Conclusion
 ----------
 The multiple address spaces scheme is unavoidable. Persistence mechanism must be built on top of it. Each domain should occupy its own address space.
 
-**P.S.** *I've been reminded of lack of segmentation support in x86_64 (unlike x86), so all the far pointers stuff mentioned above is not relevant.*
+**P.S.** *I've been reminded of lack of segmentation support in x86\_64 (unlike x86), so all the far pointers stuff mentioned above is not relevant.*
+
+**P.P.S.** *Although x86\_64 does not support full-fledged segmentation later x86\_64 CPUs actually support base+offset addressing (for FS and GS segment registers).*
